@@ -13,7 +13,8 @@ Each tool in this repo automates a real business task: the kind of work that eat
 More tools coming: each lives in its own folder with a README, setup steps and example output.
 
 ## How the tools are built
-- **Claude API** for reasoning and structured output
+- **Claude API** for reasoning, structured output and MCP integrations
+- **Grok (xAI)** for multi-agent assistants and real-time research
 - **Tool use / MCP** so agents can act, not just answer
 - **Python** for data handling and glue code
 
@@ -25,7 +26,7 @@ More tools coming: each lives in its own folder with a README, setup steps and e
 
 ## Running a tool
 1. Clone the repo and open the tool's folder
-2. Create a `.env` file with your `ANTHROPIC_API_KEY`
+2. Create a `.env` file with the API key the tool needs (`ANTHROPIC_API_KEY` or `XAI_API_KEY`)
 3. Follow the steps in that tool's README
 
 ## About me
